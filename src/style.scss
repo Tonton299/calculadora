@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: #50c878;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    padding-bottom: 20px;
+    color: red;
+    text-align: center;
+}
+
+input{
+    // faz com que cada um fique em sua linha
+    display: block;
+    border: none;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 7px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+div{
+    text-align: center;
+}
